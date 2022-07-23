@@ -1,7 +1,7 @@
-function factoial(n) {
+function factorial(n) {
     if (n == 0) {
         return 1;
     }
-    return n * factoial(n - 1)
+    return n * factorial(n - 1)
 }
-console.log(factoial(10));
+console.log(factorial(10));
